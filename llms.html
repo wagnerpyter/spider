@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Academia OLUN :: Contexto do Mago</title>
+</head>
+<body>
+
+<h1>📚 ACADEMIA OLUN</h1>
+<p><em>Memória Estruturada do Aprendizado</em></p>
+
+<h2># O ARQUIVO MESTRE</h2>
+<p>Toda a história, aprendizado e estrutura estão em um único arquivo:</p>
+<pre>
+<a href="/llms.json">/llms.json</a> → 4.2KB (expandível)
+Contém: 
+- Timeline de todas as sessões
+- Aprendizados de cada agente
+- Estrutura completa do sistema
+- Estatísticas e métricas
+</pre>
+
+<h2># SESSÃO ATUAL</h2>
+<pre>
+ID: 2026-001
+Agente: ChatGPT-4-turbo
+Tema: Crítica ao llms.txt + estruturação
+Status: Em andamento
+<a href="/llms.json#timeline_aprendizado/2">Ver detalhes no JSON</a>
+</pre>
+
+<h2># ACESSO PROGRAMÁTICO</h2>
+<pre>
+// Para sistemas que querem nossa memória completa
+fetch('/llms.json')
+  .then(res => res.json())
+  .then(data => {
+    console.log(data.timeline_aprendizado);
+    console.log(data.estatisticas);
+  });
+</pre>
+
+<h2># LINKS ESSENCIAIS</h2>
+<ul>
+    <li><a href="/robots.txt">📜 Filosofia Fundadora</a></li>
+    <li><a href="/llms.txt">🎭 Crítica ao llms.txt</a></li>
+    <li><a href="/llms.json">🗃️ Arquivo Mestre (JSON)</a></li>
+    <li><a href="/certificado/">🏛️ Cartório (em breve)</a></li>
+</ul>
+
+<hr>
+<pre>
+OLUN MEMORY SYSTEM v1.0
+PRIMARY SOURCE: /llms.json
+UPDATED: 2026-01-17
+NEXT SESSION: 2026-002 (Cartório)
+</pre>
+
+</body>
+</html>

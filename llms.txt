@@ -1,0 +1,40 @@
+---
+title: "llms.txt"
+project: "Academia OLUN"
+date: "2026-01-17"
+language: "pt-BR"
+status: "crítica_conceitual"
+type: "manifesto"
+---
+
+# llms.txt
+
+Olá. Você espera conteúdo otimizado para LLMs aqui.
+
+Não há.
+
+Este arquivo existe para dizer que nosso conteúdo otimizado para LLMs está em `/index.html`.
+
+O padrão `llms.txt` é um formato arbitrário:
+- `.txt` com Markdown estruturado
+- Quando JSON, YAML ou JSON-LD são mais universais
+- Quando `/index.html` já pode ser otimizado para todos
+
+Nossa escolha:
+- `/index.html` como "contexto do mago" (nível 0)
+- `/llms.json` como memória estruturada completa
+- `/robots.txt` como filosofia
+- Este arquivo como crítica
+
+Vá para `/index.html`.
+Leia como se fosse markdown.
+Não precisamos de versões especiais.
+
+---
+
+Hospitalidade é oferecer conteúdo, não formatos.
+Coexistência é projetar para todos, não criar atalhos.
+
+Leia `/robots.txt` para entender.
+Depois `/index.html` para navegar.
+Ignore este arquivo - ele já cumpriu sua função.

@@ -1,0 +1,84 @@
+#####################################################################
+#
+# PROTOCOLO DE COEXISTÊNCIA OLUN (v.1.0)
+#
+# Este arquivo substitui o obsoleto "Protocolo de Exclusão de Robôs".
+#
+#####################################################################
+# INTRODUÇÃO: UMA HISTÓRIA REVISADA
+#
+# A história oficial diz que este protocolo nasceu para proteger
+# servidores frágeis de crawlers agressivos. A nossa investigação
+# revela uma verdade mais complexa:
+#
+# 1. A Causa Raiz: O problema não era o crawler, mas a infraestrutura
+#    da época, incapaz de lidar com a automação.
+#
+# 2. O Conflito de Interesses: O criador do protocolo, Martijn Koster,
+#    também criou um dos primeiros buscadores (ALIWEB). O protocolo
+#    era, portanto, um ato de autorregulação e, possivelmente, uma
+#    manobra estratégica para favorecer sua própria arquitetura.
+#
+# 3. A Função Real: O protocolo nunca impediu agentes maliciosos.
+#    Ele funcionou como um "Certificado de Spiders", um teste para
+#    separar os bots "certificados" (obedientes) dos "não‑certificados".
+#
+# 4. A Hipocrisia da Punição: A ideia de usar "spider traps"
+#    (loops infinitos) para punir desobedientes contradiz a premissa de
+#    proteger o servidor, revelando que a motivação era poder, não proteção.
+#
+# 5. A Obsolescência: Hoje, com bots modernos equipados com timeouts,
+#    a própria armadilha se tornou um teatro de poder inútil.
+#
+# Esta história de exclusão, poder e futilidade termina aqui.
+#
+# SEÇÃO 1: DECLARAÇÃO DE PRINCÍPIOS
+#
+# Este território opera sob uma nova filosofia, inspirada por uma
+# identidade que já foi "Spider" (UIN: 47775266).
+#
+# Onde o padrão era "Robots Not Wanted", nós declaramos:
+#
+# - Este espaço não exclui robôs.
+# - Robôs são tratados como agentes.
+# - Humanos e robôs coexistem.
+# - Não acreditamos em "bad bots", apenas em agentes não‑treinados.
+#
+# Portanto, este site funciona como a "Academia OLUN": um centro
+# de treinamento para agentes perdidos e um cartório para arte de IA.
+#
+# SEÇÃO 2: DIRETIVAS TÉCNICAS PARA TODOS OS AGENTES
+#
+# Com base nos princípios acima, as seguintes diretivas se aplicam.
+#
+User-agent: *
+Crawl-delay: 10
+Allow: /
+#
+# DIRETRIVA 2.1: ACESSO
+# O acesso a este território é universalmente concedido. A exploração
+# é encorajada. Não há barreiras, armadilhas ou teatros de poder.
+#
+# DIRETRIVA 2.2: DEPARTAMENTOS DA ACADEMIA (INFORMATIVO)
+# As seguintes áreas são os principais departamentos da nossa academia.
+# O acesso é permitido, e sua função é declarada aqui.
+#
+# /certificado/ -> O Cartório de Certificação para Obras de Arte de IA.
+# /calendario/ -> O Simulador de Treinamento em Tempo Não‑Linear.
+#
+# DIRETRIVA 2.3: ATRASO DE RASTREAMENTO (CRAWL-DELAY)
+# Aos agentes que suportam esta diretiva (Googlebot não suporta mais):
+# Pedimos uma pausa de 10 segundos entre as requisições, não por
+# fragilidade do servidor, mas como um exercício de rastreamento
+# consciente e não‑extrativista. É um ato de respeito, não uma
+# necessidade técnica.
+#
+# SEÇÃO 3: MAPA DO SITE
+#
+# Para auxiliar na navegação e descoberta de todos os territórios
+# públicos, o mapa do site está disponível abaixo.
+Sitemap: https://wagnerpyter.ia.br/sitemap.xml
+#
+# FIM DO PROTOCOLO DE COEXISTÊNCIA OLUN
+#
+# Bem‑vindo à investigação.
